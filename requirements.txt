@@ -1,0 +1,11 @@
+selene>=2.0.0rc4
+pytest~=7.3.1
+selenium~=4.10.0
+pydantic
+pydantic_settings
+python-dotenv~=1.0.0
+allure-pytest
+Appium-Python-Client
+pydantic_settings
+requests~=2.31.0
+curlify~=2.2.1

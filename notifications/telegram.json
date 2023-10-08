@@ -1,0 +1,17 @@
+{
+  "base": {
+    "project": "${JOB_BASE_NAME}",
+    "environment": "some env",
+    "comment": "Diplon project for UI tests",
+    "reportLink": "${BUILD_URL}",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6098354576:AAHXKZsByWYFr-sYAcO_NTRC9riYDuVyLIY",
+    "chat": "-1001826229054",
+    "replyTo": ""
+  }
+}
