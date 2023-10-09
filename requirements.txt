@@ -9,3 +9,4 @@ Appium-Python-Client
 pydantic_settings
 requests~=2.31.0
 curlify~=2.2.1
+jsonschema~=4.19.1

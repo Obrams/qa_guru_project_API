@@ -2,7 +2,7 @@
   "base": {
     "project": "${JOB_BASE_NAME}",
     "environment": "some env",
-    "comment": "Diplon project for UI tests",
+    "comment": "Diplom project for API tests",
     "reportLink": "${BUILD_URL}",
     "language": "en",
     "messenger": "telegram",
