@@ -136,7 +136,7 @@ def test_users_page_info():
 @allure.label('owner', 'Nikita')
 @allure.tag('api')
 @allure.severity(Severity.NORMAL)
-@allure.title('Получение информации о одном пользователе')
+@allure.title('Получение информации об одном пользователе')
 def test_check_single_user():
     response = request_api(
         service,
@@ -157,7 +157,7 @@ def test_check_single_user():
 @allure.label('owner', 'Nikita')
 @allure.tag('api')
 @allure.severity(Severity.NORMAL)
-@allure.title('Получение информации о пользователе, которого нет в системе.')
+@allure.title('Получение информации о пользователе, которого нет в системе')
 def test_users_not_found():
     response = request_api(
         service,
