@@ -12,12 +12,6 @@ def open_json_schema(name: str):
         return json.loads(schema.read())
 
 
-def response_schema(file_path):
-    with open(file_path, encoding='utf8') as file:
-        schema = json.loads(file.read())
-    return schema
-
-
 def request_api(service, method, url, **kwargs):
     base_url = {"reqres": "https://reqres.in"}
     new_url = base_url[service] + url
