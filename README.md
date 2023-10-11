@@ -56,3 +56,7 @@ allure serve allure-results
 ### Отображение тестов в отчете
 <img title="Allure_Report" src="images/screenshot/Allure Report0.png">
 <img title="Allure_Example_Report" src="images/screenshot/Allure Report.png">
+
+### <p><img width="3%" title="Telegram" src="images/logo/tg.png"> Telegram</p>
+<p>Настроена отправка отчета в <a href='https://t.me/aqa_report_bot'>Telegram</a></p>
+<img title="Telegram_report_screen" src="images/screenshot/telegram.png">
